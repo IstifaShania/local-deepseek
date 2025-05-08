@@ -29,7 +29,7 @@ streamlit run llama3.1_local_rag.py
 
 - The app loads the webpage data using WebBaseLoader and splits it into chunks using RecursiveCharacterTextSplitter.
 - It creates Ollama embeddings and a vector store using Chroma.
-- The app sets up a RAG (Retrieval-Augmented Generation) chain, which retrieves relevant documents based on the user's question.
+- The app sets up a RAG (Retrieval-Augmented Generation) chain, which retrieves relevant information based on the user's question.
 - The DeepSeek model is called to generate an answer using the retrieved context.
 - The app displays the answer to the user's question.
 
